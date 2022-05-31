@@ -40,4 +40,12 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+.modal-header{
+    background-color: #6a44c4;
+}
+.modal-body{
+    background-color: #D1C4E9;
+    padding: 25px 25px;
+
+}
  
