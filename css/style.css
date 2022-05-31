@@ -48,4 +48,14 @@ body{
     padding: 25px 25px;
 
 }
+#myCarousel{
+    background-color: #512DA8;
+}
+.carousel-item{
+    height: 900px
+}
+.carousel-item img{
+    min-height: 100%;
+    margin: auto;
+}
  
