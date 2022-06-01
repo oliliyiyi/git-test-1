@@ -266,7 +266,18 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="btn-group" id="carouselButton">
+                <button class="btn btn-danger btn-sm" id="carousel-pause">
+                    <span class="fa fa-pause"></span>
+                </button>
+                <button class="btn btn-danger btn-sm" id="carousel-play">
+                    <span class="fa fa-play"></span>
+                </button>
+            </div>
+        </div>
     </div>
+    
     <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
@@ -378,6 +389,17 @@
             </div>
         </div>
     </footer>
+    <script>
+        $(document).ready(function(){
+            $("#myCarousel").carousel({interval: 2000});
+            $("#carousel-pause").click(function(){
+                $("#myCarousel").carousel('pause');
+            });
+            $("#carousel-play").click(function(){
+                $("#myCarousel").carousel('cycle');
+            });
+        });
+    </script>
     
 </body>
 
